@@ -1,0 +1,5 @@
+"Method","mean_rank","p_rank1","p_rank2","p_rank3","Dataset"
+"Segmap",1.242,0.563,0.234,0.201,"Dataset 1"
+"Scanpy",1.68,0.542,0.251,0.192,"Dataset 1"
+"Seurat",2.891,0.084,0.294,0.269,"Dataset 1"
+"Baysor",3.224,0.009,0.274,0.201,"Dataset 1"
