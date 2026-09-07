@@ -1,4 +1,5 @@
 # SegMap-
 SegMap is a computational framework for nucleus-guided cell reconstruction, spatial marker identification, and cell-cell network analysis in imaging-based spatial transcriptomics data. SegMap reconstructs cells directly from high-resolution Xenium morphology images, assigns transcripts to reconstructed cells, builds spatial neighborhood graphs, and identifies spatially informative marker genes using a Bayesian spatial modeling framework.
+
 Unlike transcript-density–based segmentation approaches, SegMap anchors every reconstructed cell to a physically observed nucleus, producing compact, non-overlapping cell territories and preserving acellular regions such as vascular lumina and alveolar air spaces.
-<img width="468" height="197" alt="image" src="https://github.com/user-attachments/assets/9faff5cb-1bbd-4716-855d-4fcaba34f736" />
+
