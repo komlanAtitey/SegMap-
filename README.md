@@ -4,6 +4,7 @@
 
 Unlike transcript-density–based segmentation methods, SegMap produces **compact, non-overlapping cell territories**, preserves acellular regions (for example, vascular lumina and alveolar air spaces), and provides an integrated framework for downstream spatial analysis, clustering, and marker discovery.
 
+![](manuscript/Figure/segmap.png)
 ---
 
 # Overview
