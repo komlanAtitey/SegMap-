@@ -185,8 +185,8 @@ SegMap/
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/komlanAtitey/SegMap.git
-cd SegMap
+git clone https://github.com/komlanAtitey/SegMap-.git
+cd SegMap-
 ```
 
 ## Create a Virtual Environment
@@ -397,19 +397,12 @@ including:
 
 ---
 
-# Citation
-
-If you use SegMap in your research, please cite:
-
-> Atitey K. et al. *SegMap: Nucleus-guided Cell Reconstruction and Bayesian Spatial Marker Identification for Imaging-based Spatial Transcriptomics*. (under review)
-
----
-
 # Contact
 
 **Dr. Komlan Atitey**  
 Department of Neurosciences  
 Case Western Reserve University School of Medicine  
+komlan.atitey@case.edu
 Cleveland, OH, USA
 
 Please use GitHub Issues for bug reports, feature requests, and technical support.
