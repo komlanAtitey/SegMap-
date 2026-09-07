@@ -366,35 +366,13 @@ All analyses presented in the manuscript are fully reproducible.
 
 The repository contains:
 
-- Raw and processed datasets
+- processed datasets
 - Synthetic data generation pipelines
 - Benchmarking workflows
 - Bayesian marker model implementation
 - Figure-generation scripts
 - R and Python analysis code
 - Manuscript source data
-
----
-
-# Documentation
-
-Detailed documentation is available in:
-
-```text
-docs/
-├── tutorials/
-├── methods/
-└── examples/
-```
-
-including:
-
-- Installation guide
-- Input data preparation
-- SegMap workflow tutorials
-- Benchmarking procedures
-- Reproducibility instructions
-- API documentation
 
 ---
 
