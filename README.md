@@ -91,10 +91,26 @@ Cell centroids are used to construct a k-nearest-neighbor graph representing loc
 spatial_graph.edgelist
 spatial_neighbors.csv
 ```
+---
+
+### 5. Uncertainty-Aware Iterative Refinement
+
+SegMap incorporates an iterative refinement procedure that is activated when transcript-assignment uncertainty exceeds a predefined threshold. The procedure uses assignment uncertainty and spatial information to identify potentially inaccurate cell boundaries and ambiguous cell-state assignments. Cell territories and transcript assignments are subsequently refined while preserving non-overlapping spatial organization and biologically plausible cellular geometry. The iterative procedure terminates when the uncertainty criterion is satisfied or the predefined iteration limit is reached.
+
+**Output**
+
+```text
+refined_cells.tif
+refined_cell_boundaries.csv
+refined_cell_morphology.csv
+refined_cell_gene_matrix.h5ad
+refined_cell_gene_matrix.csv
+refinement_summary.json
+```
 
 ---
 
-### 5. Bayesian Spatial Marker Analysis
+### 6. Bayesian Spatial Marker Analysis
 
 SegMap identifies genes exhibiting statistically significant spatial organization and cluster-specific enrichment.
 
