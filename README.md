@@ -11,25 +11,32 @@ Unlike transcript-density-based segmentation methods, SegMap generates **compact
 ## SegMap Workflow
 
 ```text
-Xenium Data
-    │
-    ▼
-Nucleus Segmentation (Cellpose)
-    │
-    ▼
-Cell Reconstruction
-    │
-    ▼
-Transcript Assignment
-    │
-    ▼
-Cell–Cell Spatial Network
-    │
-    ▼
-Bayesian Spatial Marker Analysis
-    │
-    ▼
-Spatial Clustering & Visualization
+                 Xenium Data
+                      │
+                      ▼
+          Nucleus Segmentation (Cellpose)
+                      │
+                      ▼
+              Cell Reconstruction
+                      │
+                      ▼
+              Transcript Assignment
+                      │
+                      ▼
+          Cell–Cell Spatial Network
+                      │
+                      ▼
+          Bayesian Spatial Marker Analysis
+                      │
+                      ▼
+       Uncertainty-Aware Iterative Refinement
+                      │
+                      ▼
+          Spatial Clustering & Visualization
+                      │
+                      ▼
+               Final SegMap Outputs
+
 ```
 
 The complete workflow consists of five stages:
