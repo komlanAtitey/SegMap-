@@ -131,8 +131,6 @@ marker_posteriors.csv
 ```
 ---
 
-# Repository Structure
-
 ```text
 SegMap/
 │
@@ -151,6 +149,12 @@ SegMap/
 │   ├── spatial_graph/
 │   ├── bayesian_marker_model/
 │   ├── clustering/
+│   ├── refinement/
+│   │   ├── iterative_refinement.py
+│   │   ├── uncertainty_estimation.py
+│   │   ├── boundary_refinement.py
+│   │   ├── assignment_refinement.py
+│   │   └── refinement_utils.py
 │   ├── visualization/
 │   └── utils/
 │
@@ -183,14 +187,18 @@ SegMap/
 ├── results/
 │   ├── datasets/
 │   ├── simulations/
-│   └── benchmarks/
+│   ├── benchmarks/
+│   └── refinement/
+│       ├── refined_cells/
+│       ├── refined_assignments/
+│       └── refinement_qc/
 │
 ├── notebooks/
 │
 └── docs/
     ├── methods/
     ├── tutorials/
-    └── examples/
+    └── examples/ 
 ```
 
 ---
