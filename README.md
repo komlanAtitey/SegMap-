@@ -410,13 +410,6 @@ Benchmarking evaluates:
 - Cluster stability
 - Rank robustness
 
-Results and source code are available in:
-
-```text
-benchmarking/
-results/benchmarks/
-```
-
 ---
 
 # Reproducibility
