@@ -74,8 +74,49 @@ Decoded transcripts are assigned to reconstructed cells according to their spati
 
 **Output**
 
+```text
+cell_gene_matrix.h5ad
+cell_gene_matrix.csv
+```
 
-### SegMap Pipeline Outputs
+---
+
+### 4. Cell–Cell Spatial Network Construction
+
+Cell centroids are used to construct a k-nearest-neighbor graph representing local tissue architecture.
+
+**Output**
+
+```text
+spatial_graph.edgelist
+spatial_neighbors.csv
+```
+
+---
+
+### 5. Bayesian Spatial Marker Analysis
+
+SegMap identifies genes exhibiting statistically significant spatial organization and cluster-specific enrichment.
+
+For each gene, SegMap estimates:
+
+- Posterior probability of spatial relevance
+- Fraction of Spatial Variance (FSV)
+- Bayes Factor
+- Spatial effect size
+- Cluster-specific spatial markers
+
+**Output**
+
+```text
+spatial_markers.csv
+cluster_markers.csv
+marker_posteriors.csv
+```
+
+---
+
+### 6. SegMap Pipeline Outputs
 
 Running SegMap generates two main output directories: `figures/` and `data/`.
 
@@ -134,42 +175,6 @@ The `data/` directory contains quantitative results, intermediate datasets, and 
 - **Quality control and reproducibility:** Pipeline execution summary and overlap-resolution quality-control metrics.
 
 Additional data files generated during pipeline execution may also be stored in this directory.
-
-
----
-
-### 4. Cell–Cell Spatial Network Construction
-
-Cell centroids are used to construct a k-nearest-neighbor graph representing local tissue architecture.
-
-**Output**
-
-```text
-spatial_graph.edgelist
-spatial_neighbors.csv
-```
-
----
-
-### 5. Bayesian Spatial Marker Analysis
-
-SegMap identifies genes exhibiting statistically significant spatial organization and cluster-specific enrichment.
-
-For each gene, SegMap estimates:
-
-- Posterior probability of spatial relevance
-- Fraction of Spatial Variance (FSV)
-- Bayes Factor
-- Spatial effect size
-- Cluster-specific spatial markers
-
-**Output**
-
-```text
-spatial_markers.csv
-cluster_markers.csv
-marker_posteriors.csv
-```
 
 ---
 
