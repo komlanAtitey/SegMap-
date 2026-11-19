@@ -251,7 +251,7 @@ python -m segmap.run_segmap \
 
 ---
 
-### SegMap Pipeline Outputs
+# SegMap Pipeline Outputs
 
 Running SegMap generates two main output directories: `figures/` and `data/`.
 
